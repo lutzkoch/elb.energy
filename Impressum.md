@@ -3,18 +3,18 @@
 **Angaben gemäß § 5 DDG**
 
 Lutz Koch
-[Alsterdorfer Str. 376]
-[22297 Hamburg]
+Alsterdorfer Str. 376
+22297 Hamburg
 
 **Kontakt**
 
-E-Mail: [lutz.koch@me.com]
+E-Mail: lutz.koch@me.com
 
 **Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV**
 
-[Lutz Koch]
-[Alsterdorfer Str. 376]
-[22297 Hamburg]
+Lutz Koch
+Alsterdorfer Str. 376
+22297 Hamburg
 
 **Haftung für Links**
 
