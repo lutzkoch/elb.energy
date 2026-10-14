@@ -2,7 +2,7 @@
 
 **Angaben gemäß § 5 DDG**
 
-[Lutz Koch]
+Lutz Koch
 [Alsterdorfer Str. 376]
 [22297 Hamburg]
 
