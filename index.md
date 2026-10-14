@@ -8,4 +8,4 @@ elb.energy plant dein Training und überträgt strukturierte Workouts auf deine 
 
 **Hinweis:** elb.energy ersetzt keine ärztliche Beratung, Diagnose oder Behandlung.
 
-[Datenschutzerklärung](datenschutz) · [Impressum](impressum)
+[Datenschutzerklärung](Datenschutz) · [Impressum](Impressum)
