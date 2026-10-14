@@ -17,7 +17,7 @@ elb.energy unterstützt Sie bei Training und Prävention. Dafür verarbeiten wir
 | Kontodaten (Name, E-Mail-Adresse, Zugangsdaten zu elb.energy) | Bereitstellung des Kontos und der App | Pflicht |
 | Angaben zu Ziel, Trainingsstand und Verfügbarkeit | Erstellung und Anpassung Ihrer Trainingsplanung | Pflicht für die Planung |
 | Geplante Workouts (Aufbau, Dauer, Zielwerte, Datum) | Übertragung in Ihren Kalender bei Intervals.icu und weiter auf Ihre Uhr | Optional, nur nach Verbindung |
-| Absolvierte Einheiten und Erholungswerte (z. B. Herzfrequenzvariabilität, Schlaf, Ruhepuls) | Auswertung und Anpassung des Plans | Optional, nur nach gesonderter Einwilligung |
+| Absolvierte Einheiten und Erholungswerte (z. B. Herzfrequenzvariabilität, Schlaf, Ruhepuls) | Auswertung durch ein KI-Modell und Anpassung des Plans | Optional, nur nach gesonderter Einwilligung |
 | Technische Daten (IP-Adresse, Zeitpunkt des Zugriffs, Fehlerprotokolle) | Betrieb, Sicherheit und Fehlerbehebung der App | Pflicht |
 
 Ob und welche optionalen Daten wir erhalten, entscheiden Sie selbst durch Ihre Freigaben. Die App lässt sich auch mit weniger Daten nutzen; dann sind einzelne Funktionen eingeschränkt.
@@ -27,7 +27,7 @@ Ob und welche optionalen Daten wir erhalten, entscheiden Sie selbst durch Ihre F
 Wir verarbeiten Ihre Daten auf den folgenden Grundlagen der Datenschutz-Grundverordnung (DSGVO):
 
 - **Vertragserfüllung, Art. 6 Abs. 1 lit. b DSGVO:** für Kontodaten, Trainingsplanung und die Übertragung geplanter Workouts, soweit Sie unsere Leistung nutzen.
-- **Einwilligung, Art. 6 Abs. 1 lit. a und Art. 9 Abs. 2 lit. a DSGVO:** für Gesundheitsdaten, also Erholungs-, Schlaf- und Herzfrequenzwerte, sowie für die Verbindung mit Intervals.icu. Ohne Ihre ausdrückliche Einwilligung verarbeiten wir diese Daten nicht.
+- **Einwilligung, Art. 6 Abs. 1 lit. a und Art. 9 Abs. 2 lit. a DSGVO:** für Gesundheitsdaten, also Erholungs-, Schlaf- und Herzfrequenzwerte, sowie für deren Auswertung durch einen KI-Dienst und für die Verbindung mit Intervals.icu. Ohne Ihre ausdrückliche Einwilligung verarbeiten wir diese Daten nicht.
 - **Berechtigtes Interesse, Art. 6 Abs. 1 lit. f DSGVO:** für technische Daten, die wir für Betrieb, Sicherheit und Fehlerbehebung benötigen. Sie können dem widersprechen, soweit Gründe vorliegen, die sich aus Ihrer besonderen Situation ergeben.
 
 ## 4. Verbindung mit Intervals.icu und Garmin
@@ -50,6 +50,8 @@ Erholungs-, Schlaf-, Herzfrequenz- und Trainingsdaten können Rückschlüsse auf
 - **Widerruf:** Sie können die Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen, etwa in der App oder per E-Mail an die oben genannte Adresse. Die Rechtmäßigkeit der bis dahin erfolgten Verarbeitung bleibt unberührt.
 - **Keine Weitergabe zu Werbezwecken:** Wir verkaufen Ihre Gesundheitsdaten nicht und nutzen sie nicht für Werbung.
 
+**KI-gestützte Auswertung:** Zur Auswertung übermitteln wir die von Ihnen freigegebenen Gesundheitsdaten an einen KI-Dienst (siehe Abschnitt 6). Dafür holen wir Ihre gesonderte, ausdrückliche Einwilligung ein. Die Auswertung dient als Empfehlung für Ihr Training. Entscheidungen mit rechtlicher oder ähnlich erheblicher Wirkung trifft die KI nicht. Wir übermitteln nur die Daten, die für die Auswertung nötig sind, und nicht Ihren Namen oder Ihre E-Mail-Adresse.
+
 ## 6. Empfänger, Hosting und Übermittlung in Drittländer
 
 Ihre Daten geben wir nur weiter, soweit das für den Betrieb der App erforderlich ist oder Sie es veranlassen:
@@ -60,6 +62,8 @@ Ihre Daten geben wir nur weiter, soweit das für den Betrieb der App erforderlic
 | Intervals.icu | Empfang der von Ihnen freigegebenen Workouts | Eigene Verantwortung des Dienstes; Verbindung nur auf Ihre Veranlassung |
 
 Supabase setzt eigene Unterauftragsverarbeiter ein, darunter Amazon Web Services.
+
+**KI-gestützte Auswertung:** Für die Auswertung Ihrer Belastungs- und Erholungsdaten nutzen wir die Programmierschnittstelle (API) von Anthropic (USA). Anthropic verarbeitet die übermittelten Daten in unserem Auftrag auf Grundlage eines Auftragsverarbeitungsvertrags, der in die Geschäftsbedingungen für Geschäftskunden eingebunden ist. Nach diesen Bedingungen werden Eingaben und Ausgaben aus der API nicht zum Training von Modellen verwendet, und der Anbieter speichert sie nur befristet. Die Übermittlung in die USA stützt sich auf Standardvertragsklauseln der EU-Kommission. Rechtsgrundlage ist Ihre ausdrückliche Einwilligung nach Art. 6 Abs. 1 lit. a und Art. 9 Abs. 2 lit. a DSGVO.
 
 **Besuch dieser Website:** Diese Website liegt bei GitHub Pages (GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA). Beim Aufruf verarbeitet GitHub technisch notwendige Daten, vor allem Ihre IP-Adresse, um die Seiten auszuliefern. Wir selbst erheben auf der Website keine weiteren Daten und setzen weder Cookies noch Tracking-Dienste ein. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (sichere und stabile Bereitstellung der Website). Die Übermittlung in die USA stützt sich auf Standardvertragsklauseln der EU-Kommission.
 
